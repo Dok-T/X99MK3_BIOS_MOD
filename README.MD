@@ -1,15 +1,20 @@
-PLATOFORM NAME: X99M KILLER 3.1
-BRAND: ASROCK
-UEFI TYPE: AMI
-UEFI VERSION: APTIO V
-BIOS BASED VERSION: Beta 4.0.1 2019/1/2 https://download.asrock.com/BIOS/2011/X99M%20Killer3.1(4.01)ROM.zip
-OEM Release: 5.11
+# DokT BIOS Mod for Asrock X99M KILLER 3.1
 
-0.1 03/15/23 [ALPHA]
-Unlocked Hidden Menus
-Updated Intel Microcode
+ - PLATOFORM NAME: X99M KILLER 3.1
+- BRAND: ASROCK
+- UEFI TYPE: AMI
+- UEFI VERSION: APTIO V
+- BIOS BASED VERSION: Beta 4.0.1 2019/1/2 https://download.asrock.com/BIOS/2011/X99M%20Killer3.1(4.01)ROM.zip
+- OEM Release: 5.11
 
-╔════════════════════════════════════════════════════════════════════════╗
+> The goal of this BIOS Mod is made to be futureproof and patch security issues and add features (at my level of skill).
+> The roadmap is to release a stable, reliable, patched (security issues, such as Intel ME or CPU uCode) and adding PCIe Bifurcation menu. Some features esthetics features might be upgraded or changed to get a "fresh" look.
+
+    0.1 03/15/23 [ALPHA]
+
+ 1. Unlocked Hidden Menus
+ 2. Updated Intel Microcode
+ 3. <code>╔════════════════════════════════════════════════════════════════════════╗
 ║                                 Intel                                  ║
 ╟─┬─────┬──────────────────┬────────┬──────────┬────┬──────┬────────┬────╢
 ║#│CPUID│     Platform     │Revision│   Date   │Type│ Size │ Offset │Last║
@@ -36,4 +41,14 @@ Updated Intel Microcode
 ╟─┼─────┼──────────────────┼────────┼──────────┼────┼──────┼───────┼────╢
 ║4│306F1│EF (0,1,2,3,5,6,7)│   14   │2014-01-10│PRD │0x8800│0x18018│Yes ║
 ╚═╧═════╧══════════════════╧════════╧══════════╧════╧══════╧═══════╧════╝
+</code>
+
+4. Upgraded network firmware
+	- Killer E2200 EFI Lx Killer Undi 1.1.0.4 -> 1.1.0.13
+	- EFI Intel PRO1000 UNDI      - 6.1.14 -> 6.6.04
+	- OROM Intel Boot Agent GE    - 1.5.50 -> 1.5.62
+
+5. Changed some strings (useless strings, just for research)
+
+
 
